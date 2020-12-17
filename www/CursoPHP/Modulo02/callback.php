@@ -27,3 +27,5 @@ echo '<br>';
 
 $obj = new Pessoa;
 call_user_func([$obj, $metodo], 'Dayane'); 
+
+// realizando teste
