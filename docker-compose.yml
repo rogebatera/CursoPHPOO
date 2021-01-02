@@ -8,9 +8,13 @@ php:
   links:
     - db
 db:
-  image: mysql:5.7
+  image: postgres:11.1-alpine
+  working_dir: /application
   volumes:
-    - /var/lib/mysql
-  environment: 
-    - MYSQL_ROOT_PASSWORD=myrootpass
-    - MYSQL_DATABASE=mydb
+    - .:/application
+  environment:
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=postgres
+    - POSTGRES_DB=livro
+  ports:
+    - "5432:5432"

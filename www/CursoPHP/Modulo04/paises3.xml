@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pais>
+    <nome>Brasil</nome>
+    <idioma>Português</idioma>
+    <capital>Brasilia</capital>
+    <moeda>Novo Real</moeda>
+    <prefixo>+55</prefixo>
+    <geografia>
+        <clima>temperado</clima>
+        <costa>7453 Km</costa>
+        <pico>Neblina (3214 m)</pico>
+    </geografia>
+    <estados>
+        <nome>Parana</nome>
+        <nome>Santa Catarina</nome>
+        <nome>Pernambuco</nome>
+        <nome>São Paulo</nome>
+    </estados>
+</pais>
